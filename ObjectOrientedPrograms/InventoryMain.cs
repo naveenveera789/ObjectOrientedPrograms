@@ -17,7 +17,7 @@ namespace ObjectOrientedPrograms
                     var json = r.ReadToEnd();
                     var items = JsonConvert.DeserializeObject<List<InventoryModel>>(json);
                     Console.WriteLine("Name\tWeight\tPrice");
-                    foreach(var item in items)
+                    foreach (var item in items)
                     {
                         Console.WriteLine("{0}" + "\t" + "{1}" + "\t" + "{2}", item.Name, item.Weight, item.Price);
                     }
