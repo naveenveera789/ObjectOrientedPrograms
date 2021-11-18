@@ -1,0 +1,17 @@
+[
+  {
+    "StockName": "Hyundai",
+    "NumberOfShares": 38,
+    "PricePerShare": 1200
+  },
+  {
+    "StockName": "KIA",
+    "NumberOfShares": 78,
+    "PricePerShare": 1750
+  },
+  {
+    "StockName": "Renault",
+    "NumberOfShares": 50,
+    "PricePerShare": 1300
+  }
+]

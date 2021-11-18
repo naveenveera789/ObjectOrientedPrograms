@@ -10,7 +10,7 @@ namespace ObjectOrientedPrograms
             while(flag)
             {
                 Console.WriteLine("Welcome to Object Oriented Programs");
-                Console.WriteLine("Choose the Option : \n 1. JSON \n 2. Inventory Management \n 3. Exit");
+                Console.WriteLine("Choose the Option : \n 1. JSON \n 2. Inventory Management \n 3. Stock List \n 4. Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -24,6 +24,11 @@ namespace ObjectOrientedPrograms
                         inve.DisplayData("Wheat");
                         break;
                     case 3:
+                        StockMain stock = new StockMain();
+                        Console.WriteLine("The Stock Report is : ");
+                        stock.DisplayData(@"C:\Users\navee\OneDrive\Documents\Bridgelabz practice\ObjectOrientedPrograms\ObjectOrientedPrograms\Files\Stock.json");
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
