@@ -20,7 +20,7 @@ namespace ObjectOrientedPrograms
                         break;
                     case 2:
                         InventoryManagementMain inve = new InventoryManagementMain();
-                        inve.ReadData(@"C:\Users\navee\OneDrive\Documents\Bridgelabz practice\ObjectOrientedPrograms\ObjectOrientedPrograms\Files\Inventory.json");
+                        inve.ReadData(@"C:\Users\navee\OneDrive\Documents\Bridgelabz practice\ObjectOrientedPrograms\ObjectOrientedPrograms\Files\InventoryList.json");
                         inve.DisplayData("Wheat");
                         break;
                     case 3:
